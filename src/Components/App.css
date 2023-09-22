@@ -1,0 +1,72 @@
+/* App.css */
+
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .user-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .user-container {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    text-align: left;
+  }
+  
+  .user-creation-form,
+  .user-update-form {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    text-align: left;
+  }
+  
+
+
+/* Dark background color for the entire app */
+body {
+  background-color: #333; 
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: white; /* Text color for the entire app */
+}
+
+/* Style for the user info containers */
+.user-container {
+  background-color: #442727; /* Reddish hue background color */
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Style for user info text */
+.user-container h3,
+.user-container p {
+  color: white; /* Text color inside the user info containers */
+}
+
+/* Style for buttons */
+.user-container button {
+  background-color: #ff5555; /* Reddish hue background color for buttons */
+  color: white; /* Button text color */
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+/* Style for buttons on hover */
+.user-container button:hover {
+  background-color: #ff3333; /* Darker reddish hue on hover */
+}
+

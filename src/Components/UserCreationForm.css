@@ -1,0 +1,37 @@
+/* Styles for the Create New User form */
+.create-user-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .create-user-form input {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ffffff; /* Input border */
+    border-radius: 4px; /* Input border radius */
+  }
+  
+/* App.css or your CSS file */
+
+/* Style for the input boxes in the user creation form */
+.create-user-form .form-input {
+  background-color: #817b7b; /* Light gray background color for input boxes */
+  color: #ede4e4; /* Text color for input boxes */
+  border: 1px solid #ccc; /* Border color */
+  border-radius: 3px;
+  padding: 5px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Style for the submit button in the user creation form */
+.create-user-form .form-button {
+  background-color: #ff5555; /* Reddish hue background color for the button */
+  color: white; /* Button text color */
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
